@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;1,400&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f4f1de;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.my-navbar{
+    background: #f2cc8f;
+}
+
+.my-navbar .navbar-brand{
+    color: #e76f51;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.my-navbar .navbar-brand:hover{
+    font-weight: bolder;
+    color: #e27d64;
+}
+
+.my-search-btn{
+    color: white;
+    background-color: #e76f51;
+}
+
+.my-search-btn:hover{
+    background-color: #eea954;
+    color: white;
+}
+
+food-list {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    padding: 16px;
+}
+
