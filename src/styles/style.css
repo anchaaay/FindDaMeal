@@ -41,6 +41,10 @@ body {
     color: white;
 }
 
+.card {
+    width: 50rem;
+}
+
 food-list {
     display: block;
     margin-top: 10px;
@@ -48,3 +52,16 @@ food-list {
     padding: 16px;
 }
 
+@media(max-width: 767px) {
+    .card {
+        width: 20rem;
+    }
+    .form-inline {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .my-form {
+        width: 70%;
+    }
+}

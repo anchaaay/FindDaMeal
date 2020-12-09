@@ -49,7 +49,7 @@ class FoodItem extends HTMLElement {
             }
         </style>
         
-        <div class="card" style="width: 50rem;">
+        <div class="card">
             <img class="food-image card-img-top" src="${this._food.strMealThumb}" alt="food Image">
             <div class="food-info card-body">
                 <h2>${this._food.strMeal}</h2>
